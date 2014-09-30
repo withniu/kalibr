@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 2.8.3)
 project(sm_matrix_archive)
 
 find_package(catkin REQUIRED COMPONENTS sm_common)
+find_package(cmake_modules REQUIRED)
 include_directories(${catkin_INCLUDE_DIRS})
 find_package(Boost REQUIRED COMPONENTS system filesystem)
 

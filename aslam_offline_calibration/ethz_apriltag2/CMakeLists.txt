@@ -3,6 +3,7 @@ cmake_minimum_required(VERSION 2.8)
 project(ethz_apriltag2)
 
 find_package(catkin)
+find_package(cmake_modules REQUIRED)
 include_directories(${catkin_INCLUDE_DIRS})
 
 find_package(Eigen REQUIRED)

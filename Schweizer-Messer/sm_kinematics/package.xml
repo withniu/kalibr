@@ -13,6 +13,7 @@
   <build_depend>sm_common</build_depend>
   <build_depend>sm_eigen</build_depend>
   <build_depend>sm_random</build_depend>
+  <build_depend>cmake_modules</build_depend>
 
   <run_depend>sm_boost</run_depend>
   <run_depend>sm_common</run_depend>
