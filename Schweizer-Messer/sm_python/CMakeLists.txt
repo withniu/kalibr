@@ -6,6 +6,7 @@ project(sm_python)
 find_package(catkin REQUIRED COMPONENTS sm_common numpy_eigen sm_kinematics 
                                         sm_timing sm_logging sm_matrix_archive
                                         sm_property_tree python_module)
+find_package(cmake_modules REQUIRED)
 include_directories(${catkin_INCLUDE_DIRS})
 find_package(Eigen REQUIRED)
 
